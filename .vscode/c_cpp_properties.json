@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Manav/Repos/Practice/C++/**",
+                "C:/MinGW/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            //"compilerPathInCppPropertiesJson": "cl.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "C:/Manav/Repos/Practice/C++/**",
+                    "C:/MinGW\\",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "cppConfiguration",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "cl.exe",
+            "intelliSenseMode": "windows-msvc-x64",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
