@@ -3,7 +3,7 @@
 
 //Call by value function example
 using namespace std;
-int add(int, int);
+int add(int, int); 
 int main()
 {
     
